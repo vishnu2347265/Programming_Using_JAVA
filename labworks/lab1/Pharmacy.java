@@ -4,7 +4,7 @@ public class Pharmacy{
     private int quantity;
     private double price;
 
-    
+
 
     //default constructor
     public Pharmacy(){
@@ -32,18 +32,24 @@ public class Pharmacy{
         System.out.println("Medicine Name : "+product_name);
         System.out.println("Quantity : "+quantity);
         System.out.println("Price : "+price);
+        calculateTotalPrice("Aspirin");
         System.out.println("Price of 10 Items : $" + calculateTotalPrice(10));
         System.out.println("Total Price: $" + calculateTotalPrice());
 
 
     }
-    //method overloading
+    //method overloading 
+    public void calculateTotalPrice(String product_name){
+        System.out.println("Total price of medicine is shown below :");
+    }
     public double calculateTotalPrice(){
         return price * quantity;
     }
     public double calculateTotalPrice(int quantity){
         return price * quantity;
     }
+
+
     public static void main(String[] args) {
         //creating an object called pharmacy to access the default values of variables created
         Pharmacy pharmacy = new Pharmacy();
