@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../DSA"
+		},
+		{
+			"path": "../Applied-Statistics-using-R"
 		}
 	]
 }
