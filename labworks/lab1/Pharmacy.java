@@ -4,6 +4,7 @@ public class Pharmacy{
     private int quantity;
     private double price;
 
+    
     //default constructor
     public Pharmacy(){
         this.id="Unknown";
