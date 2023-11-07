@@ -3,9 +3,7 @@ public class Pharmacy{
     String product_name;
     private int quantity;
     private double price;
-
-
-
+    
     //default constructor
     public Pharmacy(){
         this.id="Unknown";
