@@ -1,5 +1,6 @@
-package labworks.lab4.pharmacyPackage;
+package lab_4.pharmacyPackage;
 
-public class PriceCalculable {
-    
+public interface PriceCalculable {
+    double calculateTotalPrice();
+    double calculateTotalPrice(int quantity);
 }
