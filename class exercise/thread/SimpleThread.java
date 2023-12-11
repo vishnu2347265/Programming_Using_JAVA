@@ -29,6 +29,6 @@ public static void main(String args[])
     if (args.length>0){
         try{
             patience = Long.parseLong(args[0])*1000;
-        } catch
+        } catch 
     }
     }
