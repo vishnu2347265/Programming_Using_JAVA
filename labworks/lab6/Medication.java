@@ -1,12 +1,15 @@
 package labworks.lab6;
 
-public class Medication<T> {
+// Generic Medication class
+class Medication<T> {
     private T genericMedication;
 
+    // Constructor
     public Medication(T genericMedication) {
         this.genericMedication = genericMedication;
     }
 
+    // Getter and Setter
     public T getGenericMedication() {
         return genericMedication;
     }
@@ -15,10 +18,9 @@ public class Medication<T> {
         this.genericMedication = genericMedication;
     }
 
+    // toString method
     @Override
     public String toString() {
-        return "Medication{" +
-                "genericMedication=" + genericMedication +
-                '}';
+        return "Medication: " + genericMedication;
     }
 }

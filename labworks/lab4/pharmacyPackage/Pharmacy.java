@@ -1,4 +1,4 @@
-package lab_4.pharmacyPackage;
+package labworks.lab4.pharmacyPackage;
 
 public class Pharmacy implements PriceCalculable {
     String id;

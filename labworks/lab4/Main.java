@@ -1,6 +1,5 @@
-package lab_4;
-import lab_4.pharmacyPackage.*;
-
+package labworks.lab4;
+import labworks.lab4.pharmacyPackage.Pharmacy;
 public class Main {
     public static void main(String[] args) {
         
