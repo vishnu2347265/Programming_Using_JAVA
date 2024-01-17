@@ -2,6 +2,7 @@ package labworks.lab8;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 class Medication {
     private String name;
@@ -50,9 +51,10 @@ class Pharmacy {
 
     public void displayMedications() {
         System.out.println("Medications in the pharmacy:");
-        for (Medication medication : medicationList) {
-            System.out.println(medication);
-        }
+        medicationList.stream()
+                .map(Medication::toString) 
+                .collect(Collectors.toList())
+                .forEach(System.out::println);  
     }
 }
 

@@ -9,5 +9,11 @@
 		{
 			"path": "../Applied-Statistics-using-R"
 		}
-	]
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"labworks/lab9",
+			"labworks/lab10"
+		]
+	}
 }
