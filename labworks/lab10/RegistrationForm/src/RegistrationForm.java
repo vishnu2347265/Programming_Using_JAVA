@@ -1,3 +1,4 @@
+package RegistrationForm.src;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
