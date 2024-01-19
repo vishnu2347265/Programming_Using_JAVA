@@ -13,7 +13,8 @@
 	"settings": {
 		"java.project.sourcePaths": [
 			"labworks/lab9",
-			"labworks/lab10"
+			"labworks/lab10",
+			"labworks/ESE component 2/BankManagementSystem/src/BankManagementSystem"
 		],
 		"java.project.referencedLibraries": [
 			"lib/**/*.jar",
