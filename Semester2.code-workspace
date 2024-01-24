@@ -14,7 +14,8 @@
 		"java.project.sourcePaths": [
 			"labworks/lab9",
 			"labworks/lab10",
-			"labworks/ESE component 2/BankManagementSystem/src/BankManagementSystem"
+			"labworks/ESE component 2/BankManagementSystem/src/BankManagementSystem",
+			"labworks/T&T/Travel-and-Toursim-Management-System/Travel Management System/src/travel/management/system"
 		],
 		"java.project.referencedLibraries": [
 			"lib/**/*.jar",
